@@ -15,7 +15,7 @@ Motivated by recent developments in serverless systems for large-scale computati
 
 4. In instance setting you can select all options with "Fier free eligible" tag - this will be enough for our project. You can select other options, but this will require additional costs. In the screen below you can see the options, selected by us.
 
-<img width="276" alt="image" src="https://user-images.githubusercontent.com/82328870/208982299-6d4303f4-0756-4c4f-b6d4-361ac0d2d0ff.png">
+<img width="278" alt="image" src="https://user-images.githubusercontent.com/82328870/209016237-9de5ed26-a978-4000-bff2-b8d343e36850.png">
 
 5. While selecting the key pair `ppk` file will be generated. Moreover, you should save public DNS from connection settings of your instance
 

@@ -1,5 +1,7 @@
 # HeisenbergFormNLAProject
 
+Motivated by recent developments in serverless systems for large-scale computation, we are going to implement OverSketched Newton proposed by Gupta et al. (2020), a randomized Hessian-based optimization algorithm to solve large-scale convex optimization problems in serverless systems. OverSketched Newton leverages matrix sketching ideas from Randomized Numerical Linear Algebra to compute the Hessian approximately. These sketching methods lead to inbuilt resiliency against stragglers that are a characteristic of serverless architectures. We will empirically validate convergence of the algorithm by solving large-scale supervised learning problems on real-world datasets using serverless platforms.
+
 ## Instruction how to run Jupyter Server on AWS EC2
 1. Log into the AWS management console - for this you have to make an account in AWS, verify phone number, card number and email.
 

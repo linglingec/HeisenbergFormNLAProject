@@ -128,6 +128,7 @@ def oversketched_newton(X_train, X_test, y_train, y_test, N, n_iters, n_iters_cg
         
         training_loss.append(np.mean(np.log(1+np.exp(-np.multiply(y_train,alpha)))))
         testing_loss.append(np.mean(np.log(1+np.exp(-np.multiply(y_test, alpha_test)))))
+    return iterations_sec, training_loss, testing_loss
     
     
 def prepare_data(X_train, X_test, y_train, y_test):
